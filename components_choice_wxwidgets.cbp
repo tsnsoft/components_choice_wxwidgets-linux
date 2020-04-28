@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="components_choice_wxwidgets" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/components_choice_wxwidgets" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/components_choice_wxwidgets" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="components_choice_wxwidgetsApp.cpp" />
+		<Unit filename="components_choice_wxwidgetsApp.h" />
+		<Unit filename="components_choice_wxwidgetsMain.cpp" />
+		<Unit filename="components_choice_wxwidgetsMain.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/components_choice_wxwidgetsframe.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="components_choice_wxwidgetsApp.cpp" main="components_choice_wxwidgetsFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/components_choice_wxwidgetsframe.wxs" src="components_choice_wxwidgetsMain.cpp" hdr="components_choice_wxwidgetsMain.h" fwddecl="0" i18n="1" name="components_choice_wxwidgetsFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

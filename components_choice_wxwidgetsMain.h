@@ -31,7 +31,6 @@ class components_choice_wxwidgetsFrame: public wxFrame
 
         //(*Handlers(components_choice_wxwidgetsFrame)
         void OnQuit(wxCommandEvent& event);
-        void OnAbout(wxCommandEvent& event);
         void OnListBox1Select(wxCommandEvent& event);
         void OnChoice1Select(wxCommandEvent& event);
         void OnRadioBox1Select(wxCommandEvent& event);
